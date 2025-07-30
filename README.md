@@ -4,7 +4,7 @@ This is a very simple tool which helped me to pull times for a task from Jira wo
 It was several hours of work, but I hope it can spare this time to others, especially if they copy-paste their times from one worklog into another. 
 
 ## Prerequisites
-+ To make it work you must fill the information in asana_config.json and jira_config.json, according to their templates file (*_template.config).
++ To make it work you must fill the information in asana_config.json and jira_config.json, according to their template files (*_template.config).
 
 ## Scripts 
 + npm jira to pull the data from Jira
