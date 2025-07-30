@@ -1,0 +1,10 @@
+{    
+    "JIRA_API_KEY": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "JIRA_URL": "https://yourDomain.atlassian.net/",
+    "JIRA_MAIL": "yourEmail@mail.com",
+    "JIRA_TASK_ID": "TASKS-1",
+    "dateRange": {
+        "start": "2025-07-29",
+        "end": "2025-07-29"
+    }
+}

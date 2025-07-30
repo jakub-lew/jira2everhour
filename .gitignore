@@ -1,0 +1,5 @@
+# Ignore configuration files
+asana_config.json
+jira_config.json
+
+node_modules/*

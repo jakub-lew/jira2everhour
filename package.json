@@ -1,0 +1,19 @@
+{
+  "name": "everhourpost",
+  "version": "1.0.0",
+  "main": "post.ts",
+  "scripts": {
+    "jira": "tsx jira",
+    "check": "tsx check",
+    "post": "tsx post"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0"
+  }
+}
