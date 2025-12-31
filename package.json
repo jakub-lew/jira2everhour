@@ -5,6 +5,7 @@
   "scripts": {
     "jira": "tsx jira",
     "check": "tsx check",
+    "update-task-id": "tsx update_task_id",
     "post": "tsx post"
   },
   "author": "",

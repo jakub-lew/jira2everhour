@@ -1,5 +1,8 @@
 {
   "API_KEY": "xxxx-xxxx-xxxxxx-xxxxxx-xxxxxxxx",  
   "TASK_ID": "as:xxxxxxxxxxxxxxxx",  
-  "USER_ID": 1111111  
+  "USER_ID": 1111111,
+  "pairs": {
+    "TODO-2": "as:xxxxxxxxxxxxxxxx"    
+  }
 }
