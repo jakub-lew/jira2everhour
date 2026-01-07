@@ -12,6 +12,7 @@ const toggleEntry = togglConfig.pairs[jiraTaskId];
 if (toggleEntry) {    
     togglConfig.TASK_DESCRIPTION = toggleEntry.taskDescription;
     togglConfig.PROJECT_ID = toggleEntry.projectId;
+    togglConfig.TASK_ID = toggleEntry.taskId;
 
     // Write back to toggl_config.json
     writeFileSync('toggl_config.json', JSON.stringify(togglConfig, null, 2));

@@ -2,9 +2,11 @@
   "API_KEY": "togglToken",
   "WORKSPACE_ID": 1234567,
   "PROJECT_ID": 123456789,
+  "TASK_ID": null,
   "TASK_DESCRIPTION": "description",
   "pairs": {
     "TODO-2": {
+      "taskId": null,
       "projectId": 123456789,
       "taskDescription": "description for TODO-2"
     }

@@ -6,8 +6,9 @@
     "jira": "tsx jira",
     "check": "tsx check",
     "Asana update-task-id": "tsx update_task_id",
-    "toggl update-task-id": "tsx toggle_update_task_id",
     "post Everhour": "tsx post_Everhour",
+    "toggl list project tasks": "tsx toggl_list_project_tasks",
+    "toggl update-task-id": "tsx toggle_update_task_id",
     "post toggl": "tsx post_toggl"    
   },
   "author": "",
