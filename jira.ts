@@ -35,7 +35,8 @@ async function main() {
             //   }
             //   console.log('---');
             output.push({
-                date: item.started.split('T')[0],
+                date: item.started.split('T')[0],                
+                startTime: item.started.split('T')[1].split('.')[0],                
                 time: item.timeSpentSeconds,
                 comment: item.comment ? item.comment.content[0].content[0].text : ''
             });

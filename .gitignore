@@ -4,3 +4,4 @@ jira_config.json
 
 node_modules/*
 jira_worklog.json
+toggl_config.json

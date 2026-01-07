@@ -5,8 +5,10 @@
   "scripts": {
     "jira": "tsx jira",
     "check": "tsx check",
-    "update-task-id": "tsx update_task_id",
-    "post": "tsx post"
+    "Asana update-task-id": "tsx update_task_id",
+    "toggl update-task-id": "tsx toggle_update_task_id",
+    "post Everhour": "tsx post_Everhour",
+    "post toggl": "tsx post_toggl"    
   },
   "author": "",
   "license": "ISC",
