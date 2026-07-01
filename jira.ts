@@ -29,16 +29,16 @@ async function main() {
         const output: any = [];
 
         resp.worklogs.map((item: any) => {
-            //   console.log(`Date: ${item.started}, Time Spent: ${item.timeSpent}`);
-            //   if (item.comment) {
-            //     console.log(`Comment: ${item.comment.content[0].content[0].text}`);
-            //   }
-            //   console.log('---');
+              console.log(`Date: ${item.started}, Time Spent: ${item.timeSpent}`);
+              if (item.comment) {
+                console.log(`Comment: ${item.comment?.content?.[0]?.content?.[0]?.text ?? ''}`);
+              }
+              console.log('---');
             output.push({
                 date: item.started.split('T')[0],                
                 startTime: item.started.split('T')[1].split('.')[0],                
                 time: item.timeSpentSeconds,
-                comment: item.comment ? item.comment.content[0].content[0].text : ''
+                comment: item.comment?.content?.[0]?.content?.[0]?.text ?? ''
             });
         });
 
